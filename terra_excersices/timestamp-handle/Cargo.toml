@@ -45,11 +45,12 @@ cosmwasm-storage = { version = "0.16.0" }
 cw-storage-plus = "0.8.0"
 cw2 = "0.8.1"
 cw20 = { version = "0.8.1" }
-cw20-base = "0.8.1"
 schemars = "0.8.3"
 chrono = "0.4"
 serde = { version = "1.0.127", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.26" }
+cw20-base = { version = "0.8.1", features = ["library"] }
+
 
 [dev-dependencies]
 cosmwasm-schema = { version = "0.16.0" }
